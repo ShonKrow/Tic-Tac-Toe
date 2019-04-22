@@ -1,23 +1,50 @@
-# Compiled class file
-*.class
+td {
+	border:  2px solid #333;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-size:  70px;
+	cursor: pointer;
+}
 
-# Log file
-*.log
+table {
+	border-collapse: collapse;
+	position: absolute;
+	left: 50%;
+	margin-left: -155px;
+	top: 50px;
+}
 
-# BlueJ files
-*.ctxt
+table tr:first-child td {
+	border-top: 0;
+}
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+table tr:last-child td {
+	border-bottom: 0;
+}
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+table tr td:first-child {
+	border-left: 0;
+}
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+table tr td:last-child {
+	border-right: 0;
+}
+
+.endgame {
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: rgba(205,133,63, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
